@@ -1,12 +1,12 @@
 %define	pkgname	clamp
 Summary:	a minimal framework for command-line utilities
 Name:		ruby-%{pkgname}
-Version:	0.6.0
-Release:	6
-License:	GPL v2+ or Ruby
+Version:	1.0.0
+Release:	1
+License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	71683cdc684e5a17c1dcafddc97aacda
+# Source0-md5:	fb70657083c4c2774c111ddb31a6f328
 URL:		http://github.com/mdub/clamp
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.665
